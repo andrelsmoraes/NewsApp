@@ -1,0 +1,5 @@
+include ':core'
+include ':feature-article'
+include ':network'
+include ':app'
+rootProject.name = "News App"

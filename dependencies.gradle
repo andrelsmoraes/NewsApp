@@ -1,0 +1,49 @@
+ext {
+
+    coroutines_version = '1.4.3'
+    coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+
+    koin_version = '2.2.2'
+    koin = "org.koin:koin-android:$koin_version"
+    koin_viewmodel = "org.koin:koin-android-viewmodel:$koin_version"
+
+    retrofit_version = '2.9.0'
+    retrofit = "com.squareup.retrofit2:retrofit:$retrofit_version"
+    retrofit_moshi = "com.squareup.retrofit2:converter-moshi:$retrofit_version"
+
+    okhttp_version = '4.9.1'
+    okhttp = "com.squareup.okhttp3:okhttp:$okhttp_version"
+    okhttp_interceptor =  "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
+
+    moshi_version = '1.12.0'
+    moshi_kotlin = "com.squareup.moshi:moshi-kotlin:$moshi_version"
+    moshi_adapters = "com.squareup.moshi:moshi-adapters:$moshi_version"
+    moshi_kotlin_codegen =  "com.squareup.moshi:moshi-kotlin-codegen:$moshi_version"
+
+    lifecycle_androidx_extensions = 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+    appcompat = 'androidx.appcompat:appcompat:1.2.0'
+    material = "com.google.android.material:material:1.3.0"
+    constraint_layout = "androidx.constraintlayout:constraintlayout:2.0.4"
+    swipe_refresh_layout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+    navigation_version = '2.3.5'
+    navigation_fragment = "androidx.navigation:navigation-fragment-ktx:$navigation_version"
+    navigation_ui = "androidx.navigation:navigation-ui-ktx:$navigation_version"
+
+    paging = "androidx.paging:paging-runtime-ktx:3.0.0-rc01"
+
+    timber = "com.jakewharton.timber:timber:4.7.1"
+
+    coil = 'io.coil-kt:coil:1.2.1'
+
+    prettytime = 'org.ocpsoft.prettytime:prettytime:4.0.6.Final'
+
+    junit_core = 'junit:junit:4.13.2'
+    junit_ext = 'androidx.test.ext:junit:1.1.2'
+    junit_espresso = 'androidx.test.espresso:espresso-core:3.3.0'
+    coroutines_test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+    mockito_kotlin = 'org.mockito.kotlin:mockito-kotlin:3.1.0'
+    //TODO add some unit tests
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news_image_description">Header image from the news article</string>
+    <string name="read_more">Read more at:</string>
+    <string name="error_fetching_headlines">Error fetching headlines</string>
+    <string name="try_again">Retry</string>
+    <string name="fragment_headlines_title">Headlines</string>
+    <string name="fragment_article_details_title">Article</string>
+</resources>
